@@ -1,0 +1,2 @@
+# faculty-allocation-DBMS
+DBMS PROJECT FOR FACULTY ALLOCATION 
