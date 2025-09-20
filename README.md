@@ -38,9 +38,9 @@ monitoring, conflict detection, reporting
 2.3 User Classes
 Teachers (basic UI), Admins (advanced features)
 2.4 Operating Environment
-Frontend: React
-Backend: Django
-Database: MySQL / PostgreSQL
+Frontend: React.js
+Backend: Node.js with Express.js
+Database: PostgreSQL
 Browser: Chrome / Firefox
 2.5 Constraints
 Minimum 6 tables, role-based access, PC with 4GB RAM
@@ -94,5 +94,5 @@ Usability: User-friendly interface
 7. External Interface Requirements
 User Interface: Web-based responsive UI
 Hardware Interface: Standard PC
-Software Interface: DBMS + Web Server
+Software Interface: PostgreSQL + Node.js/Express.js Web Server
 Communication Interface: HTTP/HTTPS
