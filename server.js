@@ -26,7 +26,9 @@ app.get('/', (req, res) => {
 
 // --- API Routes will go here ---
 // Mount the teacher routes on the /api/teachers path
-app.use('/api/teachers', require('./routes/teachers'));
+app.use('/api/teachers', require('./teachers'));
+app.use('/api/classes', require('./classes'));
+app.use('/api/subjects', require('./subjects'));
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
